@@ -1,0 +1,1 @@
+SELECT Id, AccountId FROM Contact WHERE Codigo_Cliente__c LIKE '%CLI-00037%'

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contacto_Principal__c</fullName>
+    <label>Contacto Principal</label>
+    <description>Contacto asignado automáticamente según el Código de Cliente.</description>
+    <type>Lookup</type>
+    <referenceTo>Contact</referenceTo>
+    <relationshipName>Oportunidades_Principal</relationshipName>
+    <relationshipLabel>Oportunidades (Contacto Principal)</relationshipLabel>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <required>false</required>
+</CustomField>

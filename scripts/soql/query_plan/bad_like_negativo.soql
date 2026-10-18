@@ -1,0 +1,1 @@
+SELECT Id, AccountId FROM Contact WHERE Codigo_Cliente__c LIKE '%CLI-00037%' AND Segmento__c != 'Inactivo' LIMIT 1

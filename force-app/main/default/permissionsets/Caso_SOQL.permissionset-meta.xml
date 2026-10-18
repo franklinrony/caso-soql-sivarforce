@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Caso SOQL</label>
+    <description>Acceso a los campos del caso de uso de SOQL.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <fieldPermissions><field>Contact.Codigo_Cliente__c</field><editable>true</editable><readable>true</readable></fieldPermissions>
+    <fieldPermissions><field>Contact.Segmento__c</field><editable>true</editable><readable>true</readable></fieldPermissions>
+    <fieldPermissions><field>Opportunity.Codigo_Cliente__c</field><editable>true</editable><readable>true</readable></fieldPermissions>
+    <fieldPermissions><field>Opportunity.Contacto_Principal__c</field><editable>true</editable><readable>true</readable></fieldPermissions>
+    <classAccesses><apexClass>ContactoPrincipalBad</apexClass><enabled>true</enabled></classAccesses>
+    <classAccesses><apexClass>ContactoPrincipalGood</apexClass><enabled>true</enabled></classAccesses>
+</PermissionSet>

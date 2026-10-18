@@ -1,0 +1,1 @@
+SELECT Id, Codigo_Cliente__c FROM Contact WHERE Codigo_Cliente__c = 'CLI-00037' AND Segmento__c != 'Inactivo'
